@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,13 @@
     <style>
     </style>
 </head>
+
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" dir="ltr">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">
-                <span class="text-gradient">FitForce</span> Gym
+                <span class="text-gradient">PowerHouse</span> Gym
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -22,16 +24,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#home">خانه</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#gallery">Gallery</a>
+                        <a class="nav-link" href="#pricing">قیمت ها</a>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#gallery">گالری</a>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#video">Video</a>
+                        <a class="nav-link" href="#video">ویدئوها</a>
                     </li>
                 </ul>
             </div>
@@ -39,23 +41,25 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero d-flex align-items-center" id="home">
+    <section class="hero d-flex align-items-center" id="home" dir="ltr">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-3 fw-bold mb-4">Transform Your Body, <span class="text-gradient">Transform Your Life</span></h1>
-                    <p class="lead mb-4">Join FitForce Gym today and experience the perfect blend of modern equipment, expert trainers, and a motivating atmosphere.</p>
-                    <button class="btn btn-primary btn-lg">Join Now</button>
+                    <h1 class="display-5 fw-bold mb-4">Transform Your Body, <span class="text-gradient">Transform Your
+                            Life</span></h1>
+                    <p class="display-6 lead mb-1">همه ما این استعداد رو داریم</p>
+                    <p class="display-6 lead mb-4 pb-2 text-gradient">که از خودمون شاهکار بسازیم</p>
+                    <a href="#pricing" class="btn btn-primary">قیمت ها</a>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
-                    <img src="/api/placeholder/600/400" alt="Gym Equipment" class="img-fluid rounded-xl">
+                    <img src="static/img/IMG_5522.jpg" alt="Gym Equipment" class="img-fluid rounded-xl">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Gallery Section -->
-    <section class="section" id="gallery">
+    <!-- <section class="section" id="gallery">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-5 fw-bold">Our <span class="text-gradient">Gallery</span></h2>
@@ -67,7 +71,8 @@
                         <img src="/api/placeholder/400/300" class="card-img-top" alt="Weight Area">
                         <div class="card-body">
                             <h5 class="card-title">Weight Training Area</h5>
-                            <p class="card-text">Complete with free weights, machines, and dedicated zones for strength training.</p>
+                            <p class="card-text">Complete with free weights, machines, and dedicated zones for strength
+                                training.</p>
                         </div>
                     </div>
                 </div>
@@ -91,51 +96,107 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Pricing Section -->
     <section class="section bg-darker" id="pricing">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold">Membership <span class="text-gradient">Pricing</span></h2>
-                <p class="lead">Choose the plan that fits your fitness journey</p>
+                <h2 class="display-5 fw-bold"><span class="text-gradient">هزینه</span> اشتراک </h2>
+                <p class="lead">انتخاب طرح با شما</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-6">
                     <div class="price-card h-100">
                         <div class="price-header text-center">
-                            <h3 class="fw-bold">Basic</h3>
+                            <h3 class="fw-bold">عمومی</h3>
                         </div>
                         <div class="card-body text-center">
-                            <div class="price mb-3">$29<small>/mo</small></div>
+                            <div class="price mb-3">از 1.980.000 تومان / ماه</div>
                             <ul class="list-unstyled">
-                                <li class="mb-2">Access to Gym Floor</li>
-                                <li class="mb-2">Basic Equipment Usage</li>
-                                <li class="mb-2">Locker Room Access</li>
-                                <li class="mb-2">1 Fitness Assessment</li>
-                                <li class="mb-2 text-muted">No Group Classes</li>
-                                <li class="mb-2 text-muted">No Personal Training</li>
+                                <li class="mb-2">تمرین بالای یک ساعت</li>
+                                <li class="mb-2">استفاده از تمامی لوازم ورزشی</li>
+                                <hr>
+                                <li class="mb-2 mx-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>8 جلسه در ماه</span>
+                                        <span>1.980.000 تومان</span>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li class="mb-2 mx-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>12 جلسه در ماه</span>
+                                        <span>2.580.000 تومان</span>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li class="mb-2 mx-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>16 جلسه در ماه</span>
+                                        <span>3.180.000 تومان</span>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li class="mb-2 mx-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>20 جلسه در ماه</span>
+                                        <span>3.480.000 تومان</span>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li class="mb-2 mx-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>24 جلسه در ماه</span>
+                                        <span>3.780.000 تومان</span>
+                                    </div>
+                                    <hr>
+                                </li>
                             </ul>
-                            <button class="btn btn-primary mt-3">Get Started</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="price-card h-100">
                         <div class="price-header text-center">
-                            <h3 class="fw-bold">Premium</h3>
+                            <h3 class="fw-bold">VIP</h3>
                         </div>
                         <div class="card-body text-center">
-                            <div class="price mb-3">$59<small>/mo</small></div>
+                            <div class="price mb-3">از 3.600.000 تومان / ماه</div>
                             <ul class="list-unstyled">
-                                <li class="mb-2">Full Gym Access</li>
-                                <li class="mb-2">All Equipment Usage</li>
-                                <li class="mb-2">Locker Room Access</li>
-                                <li class="mb-2">Quarterly Assessments</li>
-                                <li class="mb-2">Unlimited Group Classes</li>
-                                <li class="mb-2 text-muted">2 PT Sessions/Month</li>
+                                <li class="mb-2">تمرین بالای یک ساعت</li>
+                                <li class="mb-2">استفاده از تمامی لوازم ورزشی</li>
+                                <li class="mb-2">مربی اختصاصی + برنامه تمرینی و غذایی</li>
+                                <hr>
+                                <li class="mb-2 mx-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>8 جلسه در ماه</span>
+                                        <span>3.680.000 تومان</span>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li class="mb-2 mx-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>12 جلسه در ماه</span>
+                                        <span>5.480.000 تومان</span>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li class="mb-2 mx-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>16 جلسه در ماه</span>
+                                        <span>7.200.000 تومان</span>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li class="mb-2 mx-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>20 جلسه در ماه</span>
+                                        <span>9.000.000 تومان</span>
+                                    </div>
+                                    <hr>
+                                </li>
                             </ul>
-                            <button class="btn btn-primary mt-3">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -148,13 +209,30 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-5 fw-bold">Workout <span class="text-gradient">Inspiration</span></h2>
-                <p class="lead">Watch our motivational workout video</p>
+                <p class="lead">ویدئوها</p>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
+            <div class="row justify-content-center g-1">
+                <div class="col-md-5 border rounded-xl">
                     <div class="video-container">
-                        <div class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Workout Video" allowfullscreen></iframe>
+                        <div class="ratio ratio-4x5">
+                            <div class="h_iframe-aparat_embed_frame">
+                                <span style="display: block; padding-top: 57%;"></span>
+                                <iframe src="https://www.aparat.com/video/video/embed/videohash/xdk3rl6/vt/frame"
+                                    allowFullScreen="true" webkitallowfullscreen="true"
+                                    mozallowfullscreen="true"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 border rounded-xl">
+                    <div class="video-container">
+                        <div class="ratio ratio-4x5">
+                            <div class="h_iframe-aparat_embed_frame">
+                                <span style="display: block; padding-top: 57%;"></span>
+                                <iframe src="https://www.aparat.com/video/video/embed/videohash/hpxpi2g/vt/frame"
+                                    allowFullScreen="true" webkitallowfullscreen="true"
+                                    mozallowfullscreen="true"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,30 +244,44 @@
     <footer class="footer" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h4 class="fw-bold mb-4"><span class="text-gradient">FitForce</span> Gym</h4>
-                    <p>Transforming lives through fitness since 2010. Our state-of-the-art facilities and expert trainers are here to help you achieve your fitness goals.</p>
+                <div class="col-lg-1 col-3 mb-2 mb-lg-0">
+                    <img src="static/img/logo-full.png" width=100 alt="PowerHouse Logo"></img>
                 </div>
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h5 class="fw-bold mb-4">Hours</h5>
+                <div class="col-lg-2 col-9 mb-2 mb-lg-0">
+                    <h4 class="fw-bold mb-4"><span class="text-gradient">PowerHouse</span> Gym</h4>
+                    <p></p>
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <h5 class="fw-bold mb-4">آقایان</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2">Monday - Friday: 5:00 AM - 11:00 PM</li>
-                        <li class="mb-2">Saturday: 7:00 AM - 9:00 PM</li>
-                        <li class="mb-2">Sunday: 8:00 AM - 8:00 PM</li>
+                        <li class="mb-2">روزهای زوج: </li>
+                        <li class="mb-2">13:30 الی 17:00 / 20:00 الی 00:00</li>
+                        <li class="mb-2">روزهای فرد: </li>
+                        <li class="mb-2">07:00 الی 09:00 | 14:00 الی 00:00</li>
                     </ul>
                 </div>
-                <div class="col-lg-4">
-                    <h5 class="fw-bold mb-4">Contact Us</h5>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <h5 class="fw-bold mb-4">بانوان</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2">123 Fitness Street, Gymtown</li>
-                        <li class="mb-2">Email: info@fitforcegym.com</li>
-                        <li class="mb-2">Phone: (555) 123-4567</li>
+                        <li class="mb-2">روزهای زوج: </li>
+                        <li class="mb-2">07:00 الی 13:30 | 17:00 الی 20:00</li>
+                        <li class="mb-2">روزهای فرد: </li>
+                        <li class="mb-2">09:00 الی 14:00</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-4">آدرس</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">گلسار، بلوار گیلان، خیابان 179</li>
+                        <li class="mb-2">آکادمی پرورش اندام Power House</li>
+                        <li class="mb-2">33781781 📞 33781782</li>
+                        <li class="mb-2">powerhouse__rasht</li>
                     </ul>
                 </div>
             </div>
             <hr class="my-4 opacity-25">
-            <div class="text-center">
-                <p class="mb-0">&copy; 2025 FitForce Gym. All rights reserved.</p>
+            <div class="text-center" dir="ltr">
+                <p class="mb-0">&copy; 2025 PowerHouse Gym. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -203,7 +295,7 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
                     window.scrollTo({
@@ -215,7 +307,7 @@
         });
 
         // Add navbar background color change on scroll
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
                 navbar.style.backgroundColor = 'rgba(10, 10, 10, 0.98)';
@@ -227,4 +319,5 @@
         });
     </script>
 </body>
+
 </html>
